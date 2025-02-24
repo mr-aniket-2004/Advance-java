@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+</head>
+
+<body>
+    <h1>Enter the Details :</h1>
+    <form action="Slip23a.jsp" method="post">
+        Enter the Roll Number : <input type="number" name="RNo" id=""><br><br>
+        Enter the Student Name: <input type="text" name="SName" id=""><br><br>
+        Choose Gender :
+        <label for="">Male</label><input type="radio" name="Gender" id="" value="male">
+        <label for="">Female</label><input type="radio" name="Gender" id="" value="female">
+        <label for="">Other </label><input type="radio" name="Gender" id="" value="Other"><br><br>
+        Have Computer Knowledge :
+        <br><input type="checkbox" name="Computer" id="" value="Level 1"> <label for="">Level 1 </label><br>
+        </label> <input type="checkbox" name="Computer" id="" value="Level 2"> <label for="">Level 2
+            <br><input type="checkbox" name="Computer" id="" value="Level 3"><label for="">Level 3 </label><br><br>
+
+            Enter the Class : <select name="class" id="">
+                <option value="pass">Pass</option>
+                <option value="First Class">First Class</option>
+                <option value="Second Class">Second Class</option>
+                <option value="Third Class">Third Class</option>
+                <option value="Fail">Fail</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
